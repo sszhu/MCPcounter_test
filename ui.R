@@ -199,9 +199,9 @@ ui <- navbarPage(title = "webMCP-counter",
                           tags$br(),
                           
                           
-                          tags$h2("Need more help?"),
-                          tags$p("If you need more assistance or wish to suggest an improvement to webMCP-counter, please ask open a new issue on the",tags$a(href="https://github.com/FPetitprez/webMCP-counter/issues/new/choose","webMCP-counter Github page.",target="_blank")),
-                          tags$br(),
+               #           tags$h2("Need more help?"),
+               #           tags$p("If you need more assistance or wish to suggest an improvement to webMCP-counter, please ask open a new issue on the",tags$a(href="https://github.com/FPetitprez/webMCP-counter/issues/new/choose","webMCP-counter Github page.",target="_blank")),
+               #           tags$br(),
                           
                           
                           img(src="diagram.png", width=700),
@@ -211,27 +211,27 @@ ui <- navbarPage(title = "webMCP-counter",
                  ),
                  
                  
-                 tabPanel("Citation",
-                          
-                          tags$p("If you use webMCP-counter in a scientific publication, please cite the original article of the MCP-counter version you used (human or mouse), as well as:"),
-                          tags$p("Meylan, M., Becht, E., sautès-Fridman, C., de Reyniès, A., Fridman, W.H. and Petitprez F. ",tags$a(href="https://biorxiv.org/cgi/content/short/2020.12.03.400754v1","webMCP-counter: a web interface for transcriptomics-based quantification of immune and stromal cells in heterogeneous human or murine samples"), "bioRXiv (2020)."),
-                          tags$br(),
-                          tags$p("For the human MCP-counter: Becht, E., Giraldo, N.A., Lacroix, L. et al. ", tags$a(href="https://doi.org/10.1186/s13059-016-1070-5","Estimating the population abundance of tissue-infiltrating immune and stromal cell populations using gene expression."),"Genome Biol 17, 218 (2016)."),
-                          tags$br(),
-                          tags$p("For the murine mMCP-counter: Petitprez, F., Lévy, S., Sun, C.-M., Meylan, M. et al. ", tags$a(href="https://doi.org/10.1186/s13073-020-00783-w", "The murine Microenvironment Cell Population counter method to estimate abundance of tissue-infiltrating immune and stromal cell populations in murine samples using gene expression."), "Genome Med 12, 86 (2020)."),
-                          
-                          
-                 ),
+              #   tabPanel("Citation",
+              #            
+              #            tags$p("If you use webMCP-counter in a scientific publication, please cite the original article of the MCP-counter version you used (human or mouse), as well as:"),
+              #            tags$p("Meylan, M., Becht, E., sautès-Fridman, C., de Reyniès, A., Fridman, W.H. and Petitprez F. ",tags$a(href="https://biorxiv.org/cgi/content/short/2020.12.03.400754v1","webMCP-counter: a web interface for transcriptomics-based quantification of immune and stromal cells in heterogeneous human or murine samples"), "bioRXiv (2020)."),
+              #            tags$br(),
+              #            tags$p("For the human MCP-counter: Becht, E., Giraldo, N.A., Lacroix, L. et al. ", tags$a(href="https://doi.org/10.1186/s13059-016-1070-5","Estimating the population abundance of tissue-infiltrating immune and stromal cell populations using gene expression."),"Genome Biol 17, 218 (2016)."),
+              #            tags$br(),
+              #            tags$p("For the murine mMCP-counter: Petitprez, F., Lévy, S., Sun, C.-M., Meylan, M. et al. ", tags$a(href="https://doi.org/10.1186/s13073-020-00783-w", "The murine Microenvironment Cell Population counter method to estimate abundance of tissue-infiltrating immune and stromal cell populations in murine samples using gene expression."), "Genome Med 12, 86 (2020)."),
+              #            
+              #           
+              #   ),
                  
                  
-                 tabPanel("Version",
-                          
-                          tags$p("This is webMCP-counter version 1.2 (June 2022)."),
-                          tags$br(),
-                          tags$p(paste0("This version runs the version ",packageVersion("MCPcounter")," of the MCPcounter package and version ", packageVersion("mMCPcounter"), " of the mMCPcounter package."))
-                          
-                          
-                          
-                 )
+               #  tabPanel("Version",
+               #           
+               #           tags$p("This is webMCP-counter version 1.2 (June 2022)."),
+               #           tags$br(),
+               #           tags$p(paste0("This version runs the version ",packageVersion("MCPcounter")," of the MCPcounter package and version ", packageVersion("mMCPcounter"), " of the mMCPcounter package."))
+               #           
+               #           
+               #           
+               #  )
                  
 )
